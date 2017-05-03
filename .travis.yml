@@ -10,20 +10,20 @@ script:
 install:
 - npm install
 before_deploy:
-  - npm install -g firebase-tools
+- npm install -g firebase-tools
 deploy:
   skip_cleanup: true
   provider: firebase
   token:
-    secure: "e9G1K9VwBzvn5rDknVQNIAJ6N03hOJvgjFQ4DbrzF+s+EabHyE9Q3FDS8GqR4G/RBk+wNSTBNy1n6KeBc1kVJNedIGiHuFqOWsvmmfeTkOVR+Any3ds+0LAxGmi6tRlmPGKFaEdu7QfIX54GtNs7pFDNKp9fx6xtwgPv4gL304pSGjlpqxjz0HvHyJrFUwWcBQDbpng+u9IpO/tBLU1CYfsdTfoeorzzirF1ZiMe+YyYyOwyT0bkF231K6x+b6ABIsFyN6fWRng4TU6jxsYPBeGmodF/dY/OYuBY/DucCP9aqiPtEDgmKEGuFgDZcL8IWO/+z2hz/qF9rALr+E2d7zw+OVOMb+PMlxvIIc5I+vqUHWlM1JwHuoqYeAS9O28MXJoT/9X0gTjVV4rW07/jAdSq57b0Y1TqppFqCqe7QrlAlB+Uz3oJ7hMP64HnoCXlH6hn+yAnz9gBugKBOOyJ2J/9w7fshPm8jlboi8tL+QzOYC06if/ONjFBWvWIuzjXvibY0SXV6O6Dda0K1vU48gjIrdltz0YiyOs1X1bUxVo96nhi4qdJ3h0b9CEmTcKFg1N6xN21UsR/RjIdeCJq/DbJL1D5ZoBhzOgTHOF34tpermVZ4h7i23LVwVcD5BUm9KtG4jXdYtWqn7ESuefvy2/5Gzur44+Ic+jI4NJo15Y="
-  project: "pwa-test-app"
-after_deploy: "echo 'deploy finished'"
+    secure: itBsyHKKR3JjqzSV1BCPWhmE7gkrDGaP5b1x2KF60S6BGCYnJZaKX3M8PHyNHAHtHLzGwafX8g5HJW/3G1U2vdHJTG/xkMqbk6z5lmbHhG9PjfBSF6ata/AcRz6aOuDDljDbMobbsAu8sxs/H2PlyCMJLH9/JCy87L7I8ts4+hTSUTqIURGivFeOFJQ8+wKY+uFroZlvzduUfzP766C5Ay2pnJeXZWlkErPMJb0TiUZVEwWZN6Kmu96665auMfFMFCfWl2yai9t2J9ElI+0SVw5h0plFMyowytKIjdXS38J47iaa/HOrKLCHdYHYtWqmiYePvCfjO3YVwQ5rIMDXo5c/MqtdJcS8gGFguqwG2PI/nHeVUzzGZO0O2xXt6/G3hVBxZ7R1+tgRpBkPLGtUoOlwOfy7HdEK6yFiKL8ik785nTR+A0AXsWRnwcOuUOPCTas1Inlws2/YYKLthPJb4SLAEN7JgVWoMHgYUtYohQce90ASsEEU7Kb1LkhjvD9C66YZU2AewdUOIIMDgZR28JkP6DujWX9/NXwRPfM2Wd9GdQbaDMUzQeSEDqECqQU04eZvANTJDE4K1DdtB8nSSMGe/QMdE3xxe2/qt1HuguXFXBcVN6y46zyN6q41JFbwFgoTJutgcPylu1UvmuK9YiOE/GblPCnkUZMaDwUYMB0=
+  project: pwa-test-app
+after_deploy: echo 'deploy finished'
 notifications:
- email:
-  recipients:
-   - puilamlo1701@gmail.com
-  on_success: change
-  on_failure: always
+  email:
+    recipients:
+    - puilamlo1701@gmail.com
+    on_success: change
+    on_failure: always
 env:
   global:
     secure: LqkRF8wNO5GA5q54oAo1ahutRIHd3NM91duFE7e6n/+0IvhUgRgt2Y1eJigOhCn5B9kwR5j+1y4BiMPmPLCJFOCxtr+AgTK+Avgg10CAHpUryJD/xccWKwghVOBpxNAWVaSHwvCSVwRMf8pGNG9t4uBKtVawpQlWmgCKzcEZXCpqsedG8/vgI8CtZ4CQl5LTFOmu08OWJAg35Y/JHW2sP0Pj2tLL3j99mH8zFIoTCOWcTBHUU4RNLmQemkMRIBJKFdh1IjqwmPKM5BSWEH89V/BTwyGrAXsfegvL9AsOo7B7Bujn0OVnLVDbFkGVkD2zW3B4OZiVipi6AkWOcGlBUrqWiS3rrrFp+dUP6dEZ0p2r6OmKXNZe6+h7+cYU/NxuVixHiW5kwa8J4qkeogXWWXo2vYi4woZi6oEekLB/Vkcn5UF+do5IwjfpNuX7OFliXqw062WfNJOKhrptTdRPZ+ZK85lGAnBIyp3vZQoiSbHx0Y1ZmJcHzMvqHfbit7bJ/Qdb+p1EFYB8Ihwlc34IO/2BewyQvHl4klHztCenP3wdYP1TO8c3WVBJOwjeUnhLdDxoWySBjbGkIFvXmYssjktTSQ1rZ0M197rQaadlh1RpIhNCmhg9TKwICkZ58cEw/QUGeD7YWyHGe058ju2Jl50ju3tVS1DSxCaJZIhayoI=
