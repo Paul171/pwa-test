@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Paul171/pwa-test.svg?branch=master)](https://travis-ci.org/Paul171/pwa-test)
 # Your first Progressive Web App Code Lab
 
 These are the resource files needed for the [Your first Progressive Web App](https://codelabs.developers.google.com/codelabs/your-first-pwapp/)
