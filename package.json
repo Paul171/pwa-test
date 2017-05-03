@@ -19,7 +19,8 @@
   "author": "Paul LO",
   "license": "ISC",
   "dependencies": {
-    "firebase-tools": "^3.6.1"
+    "firebase-tools": "^3.6.1",
+    "firebase": "^3.7.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
