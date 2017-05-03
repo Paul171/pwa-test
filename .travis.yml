@@ -13,7 +13,7 @@ before_deploy: "echo 'start deploy'"
 deploy:
   skip_cleanup: true
   provider: firebase
-  project: "pwa-test-app"
+  project: "pwa-test-app-2ebde"
 notifications:
   email:
     recipients:
