@@ -1,0 +1,28 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "test on pws followed by demo",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "firebase-login":"firebase login",
+    "firebase-init":"firebase init",
+    "firebase-deploy":"firebase deploy",
+    "firebase-use": "firebase use",
+    "firebase-login:ci":"firebase login:ci"
+  },
+  "keywords": [
+    "PWS",
+    "mainfest.json",
+    "service-worker"
+  ],
+  "author": "Paul LO",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-tools": "^3.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-exec": "^2.1.3"
+  }
+}
