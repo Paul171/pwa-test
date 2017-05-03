@@ -9,7 +9,9 @@ script:
 - gulp
 install:
 - npm install
-before_deploy: "echo 'start deploy'"
+before_deploy:
+  - cd functions
+  - npm install
 deploy:
   skip_cleanup: true
   provider: firebase
