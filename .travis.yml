@@ -14,7 +14,6 @@ deploy:
   provider: firebase
   token:
     secure: "e9G1K9VwBzvn5rDknVQNIAJ6N03hOJvgjFQ4DbrzF+s+EabHyE9Q3FDS8GqR4G/RBk+wNSTBNy1n6KeBc1kVJNedIGiHuFqOWsvmmfeTkOVR+Any3ds+0LAxGmi6tRlmPGKFaEdu7QfIX54GtNs7pFDNKp9fx6xtwgPv4gL304pSGjlpqxjz0HvHyJrFUwWcBQDbpng+u9IpO/tBLU1CYfsdTfoeorzzirF1ZiMe+YyYyOwyT0bkF231K6x+b6ABIsFyN6fWRng4TU6jxsYPBeGmodF/dY/OYuBY/DucCP9aqiPtEDgmKEGuFgDZcL8IWO/+z2hz/qF9rALr+E2d7zw+OVOMb+PMlxvIIc5I+vqUHWlM1JwHuoqYeAS9O28MXJoT/9X0gTjVV4rW07/jAdSq57b0Y1TqppFqCqe7QrlAlB+Uz3oJ7hMP64HnoCXlH6hn+yAnz9gBugKBOOyJ2J/9w7fshPm8jlboi8tL+QzOYC06if/ONjFBWvWIuzjXvibY0SXV6O6Dda0K1vU48gjIrdltz0YiyOs1X1bUxVo96nhi4qdJ3h0b9CEmTcKFg1N6xN21UsR/RjIdeCJq/DbJL1D5ZoBhzOgTHOF34tpermVZ4h7i23LVwVcD5BUm9KtG4jXdYtWqn7ESuefvy2/5Gzur44+Ic+jI4NJo15Y="
-  project: "pwa-test-app"
 after_deploy: "echo 'deploy finished'"
 notifications:
  email:
